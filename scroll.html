@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+#someBox {
+    height:1000px;
+    width:100%;
+    background-color:green;
+}
+#example{
+    height:1000px;
+    width:100%;
+    background-color:red;
+}
+#exam{
+    height:1000px;
+    width:100%;
+    background-color:yellow;
+}
+#examp{
+    height:1000px;
+    width:100%;
+    background-color:black;
+}
+</style>
+</head>
+<body>
+	<a href="#" id="scrollToTop">Click Me</a>
+    <div id="someBox"></div>
+    <div id="example"></div>
+
+
+<script src="js/jquery-1.12.4.min.js"></script>
+ <script>
+    $(function() {
+
+       $('#scrollToTop').click(function(){
+
+       //scroll to end of page
+      //$("html, body").animate({ scrollTop :$(document).height() }, 1000);
+
+      //scroll to particular div
+
+      //$("html, body").animate({ scrollTop :$('#example').offset().top}, 1000);
+
+      
+
+
+    });
+});
+
+ </script>
+</body>
+</html>
